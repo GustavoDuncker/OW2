@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding-top: 0;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgba(221, 19, 19, 0.541);
+    color: aliceblue;
+    display:flex;
+    justify-content: center;
+    padding: 20;
+}
+
+.navbarsubtitulos{
+    padding-right: 250;
+    padding-left: 250;
+    cursor: pointer;
+}
+.navbarsubtitulos:hover{
+    color: aquamarine;
+}
+main h1{
+    text-align: center;
+}
+main h3{
+    text-align: center;
+}
+.sobre{
+    text-align: left;
+    padding-left: 10;
+}
+.carrossel{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.imagens{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.imagens input{
+    display: none;
+}
+
+.imagem{
+    width: 20%;
+    transition: 2s;
+}
+.imagem img{
+    width: 300px;
+    height: 200px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 700px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    padding-left: 330px;
+}
+
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: #40D3DC;
+}
+#roupa1:checked ~ .primeiro{
+    margin-left: 0;
+}
+#roupa2:checked ~ .primeiro{
+    margin-left: -20%;
+}
+#roupa3:checked ~ .primeiro{
+    margin-left: -40%;
+}
+#roupa4:checked ~ .primeiro{
+    margin-left: -60%;
+}
+#roupa5:checked ~ .primeiro{
+    margin-left: -80%;
+}
+#roupa6:checked ~ .primeiro{
+    margin-left: -100%;
+}
+#roupa7:checked ~ .primeiro{
+    margin-left: -120%;
+}
+#roupa8:checked ~ .primeiro{
+    margin-left: -140%;
+}
+#roupa9:checked ~ .primeiro{
+    margin-left: -160%;
+}
+#roupa10:checked ~ .primeiro{
+    margin-left: -180%;
+}
+#roupa11:checked ~ .primeiro{
+    margin-left: -200%;
+}
+
+
+footer{
+    background-color: rgb(63, 61, 61);
+    color: aliceblue;
+    text-align: center;
+    padding: 20;
+}
