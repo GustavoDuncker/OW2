@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: rgba(221, 19, 19, 0.541);
-    color: rgb(12, 90, 158);
+    background-color: rgba(202, 202, 202, 0.541);
+    color: rgb(9, 9, 10);
     display:flex;
     justify-content: center;
     padding: 20;
